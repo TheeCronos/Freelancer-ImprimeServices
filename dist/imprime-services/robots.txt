@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://imprimeservices.com.br/sitemap.xml
