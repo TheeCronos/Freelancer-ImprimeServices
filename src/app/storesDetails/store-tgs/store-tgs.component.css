@@ -1,2 +1,175 @@
-/* Código css minificado para reduzir o tamanho na build, código completo em csstgs.txt*/
-.storeContentContainer{background-image:url(../../../assets/faixada-taguatinga-shopping.webp);background-repeat:no-repeat;background-size:cover;background-position:center;z-index:1;position:relative}.storeContainer{width:100%;height:92vh;display:flex;backdrop-filter:blur(22px)}.storeName{padding:2.5rem 1.5rem;color:#fff;text-shadow:1px 1px 3px #000;width:100%}.storeName h1{font-size:3rem;font-weight:bolder;padding-top:10px}.storeInfos{width:100%;display:flex;flex-direction:row;gap:2.5rem;justify-content:space-around;align-items:center;margin:50px 0}.storeInfos_Address,.storeInfos_Contact{line-height:25px;margin-bottom:20px}.storeInfosContainer{display:flex;flex-direction:column;justify-content:space-between;gap:1rem;text-align:left}.storeInfosContainer p{text-align:left}.storeInfos_Address h2{margin-bottom:15px;font-size:1.5rem}.storeInfos_Contact h2,.storeInfos_Schedules h2{margin:15px 0;font-size:1.5rem}.storeInfos_Contact{display:flex;flex-direction:column}.storeInfos_Contact a{text-decoration:none;color:#fff}.storeInfos_Schedules{line-height:20px;text-align:left}.storeInfos_Schedules p{margin:10px 0;font-size:1rem}.storeInfos_Localization iframe{border-radius:3rem .5rem}#footer_social_media{display:flex;justify-content:flex-end;gap:1rem;margin-top:1rem;margin-bottom:2rem}#footer_social_media .footer-link{display:flex;align-items:center;justify-content:center;height:2.5rem;width:2.5rem;color:var(--color-neutral-40);border-radius:50%;transition:.3s;text-decoration:none;text-shadow:none}#footer_social_media .footer-link i{font-size:1.25rem;margin-left:.1rem}#footer_social_media .footer-link:hover{opacity:.8}#instagram{background:linear-gradient(#7f37c9,#ff2992,#ff9807)}#whatsapp{background-color:#25d366}@media screen and (max-width:1570px){.storeContainer{flex-direction:column;justify-content:space-between;height:auto}.storeName h1,p{text-align:center}}@media screen and (max-width:989px){.storeInfos{flex-direction:column}}@media screen and (max-width:715px){.storeInfos_Localization iframe{height:300px;width:400px}.storeName h1{font-size:3rem}}@media screen and (max-width:439px){.storeInfos_Localization iframe{height:200px;width:300px}}
+.storeContentContainer {
+    background-image: url(../../../assets/faixada-taguatinga-shopping.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    position: relative;
+    object-fit: cover;
+}
+
+.storeContainer {
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    backdrop-filter: blur(22px);
+}
+
+.storeName {
+    padding: 2.5rem 1.5rem;
+    color: #fff;
+    text-shadow: 1px 1px 3px black;
+    width: 100%;
+}
+
+.storeName h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+.storeInfos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.storeInfosContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: left;
+}
+
+.storeInfosContainer p {
+    text-align: left;
+}
+
+.storeInfos_Address h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.storeInfos_Address {
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.storeInfos_Contact h2 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+.storeInfos_Contact {
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.storeInfos_Contact a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.storeInfos_Schedules {
+    line-height: 20px;
+    text-align: left;
+}
+
+.storeInfos_Schedules h2 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+.storeInfos_Schedules p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.storeInfos_Localization iframe {
+    border-radius: 3rem .5rem 3rem .5rem;
+}
+
+#footer_social_media {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.3s;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;
+    margin-left: 0.1rem;
+}
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#whatsapp {
+    background-color: #25d366;
+}
+
+@media screen and (max-width: 1570px) {
+    .storeContainer {
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+    }
+
+    .storeName h1,
+    p {
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-width: 989px) {
+    .storeInfos {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .storeInfos_Localization iframe {
+        height: 300px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .storeName h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 439px) {
+    .storeInfos_Localization iframe {
+        height: 200px;
+        width: 300px;
+    }
+}

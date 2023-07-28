@@ -7,7 +7,6 @@
   flex-wrap: wrap;
   align-items: center;
   background-color: #eee;
-  min-height: 100%;
 }
 
 a{
@@ -32,6 +31,7 @@ h1 {
   transition: 0.2s;
   width: 25rem;
   height: 45rem;
+  flex-wrap: wrap;
   text-align: center;
 }
 
@@ -50,6 +50,7 @@ h1 {
 .card-content {
   padding: 1.5rem;
   height: 400px;
+  object-fit: cover;
 }
 
 .card-header {
@@ -73,3 +74,15 @@ h1 {
   }
 }
 
+@media(max-width: 459px) {
+  .container-item {
+    width: 80%;
+    height: 60%;
+  }
+
+  .splide__slide{
+    display: flex;
+    justify-content: center;
+    margin-left: 2.5rem;
+  }
+}
