@@ -54,6 +54,9 @@ O site foi projetado e desenvolvido por:
 ### Home screen:
 > ![screencapture-imprimeservices-br-2023-06-05-14_49_43](https://github.com/Thiagoreis9/Freelancer-ImprimeServices/assets/61464525/8299fdd1-6e30-47dd-aecf-7d489f423bc7)
 
+### Desempenho:
+![image](https://github.com/TheeCronos/Freelancer-ImprimeServices/assets/86898523/c5a3970a-99be-4d90-a6d2-61427a3a5ad4)
+
 ## Produtos:
 > ![screencapture-imprimeservices-br-services-2023-06-05-14_58_29](https://github.com/Thiagoreis9/Freelancer-ImprimeServices/assets/61464525/9e67fc00-a35f-4efa-8ce2-b014a028d8e0)
 
