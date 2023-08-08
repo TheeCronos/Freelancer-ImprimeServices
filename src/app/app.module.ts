@@ -10,7 +10,7 @@ import { BtnTopComponent } from './components/btn-top/btn-top.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { StoresComponent } from './components/stores/stores.component';
 import { StorePistaoComponent } from './storesDetails/store-pistao/store-pistao.component';
-import { StoreTGSComponent } from './storesDetails/store-tgs/store-tgs.component';
+import { StoreTgsComponent } from './storesDetails/store-tgs/store-tgs.component';
 import { StorePlazaComponent } from './storesDetails/store-plaza/store-plaza.component';
 import { HomeScreenComponent } from './screens/home-screen/home-screen.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
@@ -39,7 +39,7 @@ import { AdesivoMetroComponent } from './screens/productsDetail/adesivo-metro/ad
     CarouselComponent,
     StoresComponent,
     StorePistaoComponent,
-    StoreTGSComponent,
+    StoreTgsComponent,
     StorePlazaComponent,
     HomeScreenComponent,
     GalleryComponent,

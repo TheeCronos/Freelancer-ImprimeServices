@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './store-tgs.component.html',
   styleUrls: ['./store-tgs.component.css']
 })
-export class StoreTGSComponent implements OnInit {
+export class StoreTgsComponent implements OnInit {
 
   constructor() { }
 
